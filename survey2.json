@@ -1,0 +1,60 @@
+{
+    "logoPosition": "right",
+    "pages": [
+      {
+        "name": "page1",
+        "elements": [
+          {
+            "type": "dropdown",
+            "name": "Which Type of Authorisation are you applying for",
+            "title": "\n",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": "Item 1",
+                "text": "FSP"
+              },
+              {
+                "value": "Item 2",
+                "text": "Fund"
+              },
+              {
+                "value": "Item 3",
+                "text": "Insurance Company"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "name": "question2",
+            "title": "How long have you been active in the Irish Market"
+          },
+          {
+            "type": "tagbox",
+            "name": "question3",
+            "title": "Which products do you plan to provide in Ireland",
+            "choices": [
+              {
+                "value": "Item 1",
+                "text": "Insurance"
+              },
+              {
+                "value": "Item 2",
+                "text": "Financial Advice"
+              },
+              {
+                "value": "Item 3",
+                "text": "Private Equity"
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "question4",
+            "title": "Please attach CV of your CEO",
+            "isRequired": true
+          }
+        ]
+      }
+    ]
+  }
